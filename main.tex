@@ -1,0 +1,53 @@
+\documentclass{article}
+\input{packages}
+\begin{document}
+\include{00.first_page}
+
+\section{Introduction}
+\input{01.introduction}
+\newpage
+
+\section{High-Level summary}
+\input{02.high-level}
+\section{Recommendations}
+\input{03.recommendations}
+\newpage
+
+
+\tableofcontents
+\newpage
+
+\section{Active Directory Set}
+
+\subsection{MS01 - 192.168.xx.xx}
+\input{template}
+\newpage
+\subsection{MS02 - 10.10.xx.xx}
+\input{template}
+
+\newpage
+\subsection{DC01 - 10.10.xx.xx}
+\input{template}
+
+\newpage
+\section{Independent challenges}
+\subsection{XXX - 192.168.xx.xx}
+\input{template}
+
+\newpage
+\subsection{XXX - 192.168.xx.xx}
+\input{template}
+
+\newpage
+\subsection{XXX - 192.168.xx.xx}
+\input{template}
+
+
+
+\newpage
+\section{Appendixes}
+\subsection{Metasploit usage}
+\subsection{Latex}
+This report follow the \LaTeX\␣ template available \href{https://github.com/nicoledozo/oscp-latex-report}{here} --\textit{Feel free to remove this}
+
+\end{document}
